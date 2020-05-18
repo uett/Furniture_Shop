@@ -1,0 +1,48 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+// Шапка
+.body__header{
+    padding-top: 20px;
+    padding-bottom: 140px;
+}
+.header{
+    .header__wrapper{
+        padding: 0 28px 0 80px;
+    }
+    .header__list{
+        margin-bottom: 0;
+        align-items: center;
+    }
+    .header__item{
+        list-style: none;
+    }
+    .header__link{
+        list-style: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: rgba(34, 34, 34, 0.75);
+    }
+    .header__item--active{
+        font-weight: 800;
+        color: #DAA520;
+    }
+    .header__link-sing-up{
+        text-transform: uppercase;
+        color: #3E3F43;
+        font-weight: bold;
+        padding: 9px 35px 9px 36px;
+        border: 1px solid #3E3F43;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+}
+// --Шапка--
