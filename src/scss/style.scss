@@ -2,6 +2,7 @@ body{
     font-family: 'Nunito', sans-serif;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 a{
     color: #000;
@@ -46,3 +47,40 @@ a{
     }
 }
 // --Шапка--
+
+// Промо текст 
+
+.promo-text{
+    .promo-text__block-image{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 800px;
+        width: 370px;
+        border-bottom-left-radius: 90px;
+        background: #F9BDBD;
+        z-index: -1;
+    }
+    .promo-text__block-image::after{
+        content: "";
+        position: relative;
+        left: -190px;
+        top: 170px;
+        display: flex;
+        width: 568px;
+        height: 577px;
+        background-image: url(../images/promo-text__stolik.png);
+    }
+    .promo-text__block-image::before{
+        content: "";
+        position: absolute;
+        left: -264px;
+        top: 405px;
+        display: flex;
+        width: 390px;
+        height: 390px;
+        background-image: url(../images/listik.png);
+    }
+}
+
+// --Промо текст--
