@@ -60,7 +60,7 @@ a{
         top: 0;
         height: 800px;
         width: 370px;
-        border-bottom-left-radius: 90px;
+        border-bottom-left-radius: 150px;
         background: #F9BDBD;
         z-index: -1;
     }
@@ -119,8 +119,8 @@ a{
         width: 278px;
         height: 388px;
         background: #F7DEA6;
-        border-bottom-left-radius: 90px;
-        border-top-right-radius: 90px;
+        border-bottom-left-radius: 150px;
+        border-top-right-radius: 150px;
     }
     .about-us__img-wooden-objects::after{
         content: "";
@@ -136,11 +136,70 @@ a{
         content: "";
         position: absolute;
         left: -144px;
-        top: 295px;
+        top: 257px;
         display: flex;
         width: 390px;
         height: 390px;
         background-image: url(../images/listik.png);
+    }
+    .about-us__promo-about-us{
+        padding-left: 40px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 49px;
+        color: #3E3F43;
+    }
+    .about-us__promo-about-us::before{
+        content: "";
+        position: absolute;
+        left: 15px;
+        top: 9px;
+        display: flex;
+        width: 30px;
+        height: 30px;
+        background-image: url(../images/listik_SMAILL.png);
+    }
+    .about-us__about-us-large-text{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 98px;
+        color: rgba(34, 34, 34, 0.1);
+    }
+    .about-us__title-block{
+        margin-bottom: 20px;
+    }
+    .about-us__title{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 49px;
+    }
+    .about-us__title span{
+        font-weight: 400;
+    }
+    .about-us__subtitle{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        color: #000;
+    }
+    .about-us__custom-furniture .about-us__title{
+        color: #000;
+    }
+    .about-us__wooden-furniture-manufacturing-services{
+        margin-bottom: 180px;
+    }
+    .about-us__img-custom-furniture{
+        position: absolute;
+        right: 0;
+        margin-top: -268px;
     }
 }
 
