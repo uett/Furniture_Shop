@@ -440,3 +440,44 @@ a{
 
 // --Отзывы--
 
+// Подписка
+
+.subscription{
+    .subscription__title,
+    .subscription__subtitle{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+        margin: 0;
+    }
+    .subscription__subtitle{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .subscription__input-email,
+    .subscription__button{
+        border: 1px solid #DAA520;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background: none;
+        padding: 9px 16px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .subscription__button{
+        background: #DAA520;
+        color: #fff;
+        margin-left: -7px;
+        border-top-left-radius: initial;
+        border-bottom-left-radius: initial;
+    }
+}
+
+// --Подписка--
