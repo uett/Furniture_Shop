@@ -148,10 +148,6 @@ a{
     margin-left: 231px;
     margin-top: -25px;
 }
-.header-block__promo-text-ordering::after{
-    width: 214px;
-    margin-left: 268px;
-}
 .header-block__promo-text-large{
     margin: 0;
     font-family: Nunito;
@@ -237,6 +233,10 @@ a{
 // Информация о услугах
 
 .services{
+    .header-block__promo-text::after{
+        width: 214px;
+        margin-left: 268px;
+    }
     .services__item{
         text-align: center;
     }
@@ -278,3 +278,14 @@ a{
 }
 
 // --Информация о услугах 
+
+// Категории
+
+.сategory{
+    .header-block__promo-text::after{
+        width: 338px;
+        margin-left: 268px;
+    }
+}
+
+// --Категории--
