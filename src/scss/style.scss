@@ -450,6 +450,9 @@ a{
 
 // Подписка
 
+.main__subscription{
+    margin-bottom: 100px;
+}
 .subscription{
     .subscription__title,
     .subscription__subtitle{
@@ -489,3 +492,66 @@ a{
 }
 
 // --Подписка--
+
+// Футер
+
+.footer{
+    background: linear-gradient(to bottom, #fff, #e0dfdf);
+}
+.lower-part-footer{
+    .lower-part-footer__title{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #333333;
+        margin-bottom: 16px
+    }
+    .lower-part-footer__item{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #8D8D8D;
+    }
+    .copywriting{
+        text-align: center;
+        margin-top: 45px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8D8D8D;
+    }
+    .lower-part-footer__logo{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.25em;
+        padding-left: 35px;
+    }
+    .lower-part-footer__logo::before{
+        content: "";
+        left: 14px;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-image: url(../images/listikfooter.png);
+    }
+    .lower-part-footer__logo::after{
+        content: "";
+        position: absolute;
+        width: 937px;
+        height: 1px;
+        background: #C4C4C4;
+        left: 14px;
+        margin-top: -20px;
+    }
+}
+
+// Футер
