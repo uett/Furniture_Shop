@@ -5,6 +5,9 @@ body{
     overflow-x: hidden;
     color: #3E3F43;
 }
+.body-active-menu{
+    overflow: hidden;
+}
 a{
     color: #3E3F43;
     text-decoration: none;
@@ -44,6 +47,56 @@ a{
         border: 1px solid #3E3F43;
         box-sizing: border-box;
         border-radius: 8px;
+    }
+    .header__button,
+    .header__button--close{
+        display: none;
+        background: none;
+        border: none;
+        outline: none;
+    }
+    @media screen and (max-width: 992px){
+        .header__logo-img{
+            margin-bottom: 15px;
+        }
+        .header__list{
+            padding-left: 0;
+        }
+    }
+    @media screen and (max-width: 767px){
+        .header__button{
+            display: flex;
+        }
+        .header__list{
+            display: none !important;
+        }
+        .header__list--the-drop-down-menu{
+            display: flex !important;
+            flex-direction: column;
+            position: absolute;
+            right: -13px;
+            top: -35px;
+            background: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.11);
+            width: 200px;
+            padding: 20px 0 44px;
+            border-bottom-left-radius: 10px;
+        }
+        .header__button--close-active{
+            display: flex;
+            position: absolute;
+            left: 10px;
+            top: 20px;
+        }
+        .header__wrapper {
+            padding: 0 28px 0 28px;
+        }
+        .header__item{
+            padding-top: 15px;
+        }
+        .header__logo-img {
+            margin-bottom: 0;
+        }
     }
 }
 // --Шапка--
