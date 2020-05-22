@@ -255,15 +255,6 @@ a{
     background: #000;
 
 }
-// .header-block__promo-text::after{
-//     content: "";
-//     display: flex;
-//     width: 443px;
-//     height: 2px;
-//     background: #000;
-//     margin-left: 231px;
-//     margin-top: -25px;
-// }
 .header-block__promo-text-large{
     margin: 0;
     padding-left: 10px;
@@ -614,6 +605,17 @@ a{
     }
     .reviews__button--active{
         background: #DAA520;
+    }
+    @media screen and (max-width: 1200px){
+        .reviews__img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 992px){
+        .reviews__item{
+            margin-top: 20px;
+        }
     }
 }
 
