@@ -292,14 +292,6 @@ a{
         font-size: 21px;
     }
 }
-// @media screen and (max-width: 510px){
-//     .header-block__promo-text{
-//         font-size: 20px;
-//     }
-//     .header-block__promo-text-large {
-//         font-size: 34px;
-//     }
-// }
 @media screen and (max-width: 510px){
     .header-block__promo-text-large {
         font-size: 29px;
@@ -309,70 +301,16 @@ a{
     }
 }
 @media screen and (max-width: 415px){
-    .header-block__promo-text-large{
+    .header-block__promo-text-large--custom-block{
         white-space: pre-wrap;
         line-height: 30px;
     }
 }
-// .header-block__title-block{
-//     margin-bottom: 43px;
-// }
-// @media screen and (max-width: 1200px){
-//     .header-block__promo-text::after{
-//         width: 266px;
-//     }
-// }
-// @media screen and (max-width: 992px){
-//     .header-block__promo-text-large{
-//         font-size: 39px;
-//     }
-//     .header-block__promo-text::after{
-//         width: 89px;
-//     }
-// }
-// @media screen and (max-width: 767px){
-//     .header-block__promo-text-large {
-//         font-size: 45px;
-//     }
-//     .header-block__promo-text{
-//         font-size: 22px;
-//         padding-left: 36px;
-//     }
-//     .header-block__promo-text::after{
-//         width: 62px;
-//         margin-left: 167px;
-//     }
-//     .promo-text{
-//         padding-bottom: 84px;
-//     }
-// }
-// @media screen and (max-width: 576px){
-//     .header-block__promo-text-large {
-//         font-size: 37px;
-//     }
-//     .header-block__promo-text{
-//         font-size: 17px;
-//     }
-//     .header-block__promo-text::after{
-//         background: #fff;
-//     }
-// }
-// @media screen and (max-width: 455px){
-//     .header-block__promo-text-large{
-//         font-size: 32px;
-//     }
-// }
-// @media screen and (max-width: 399px){
-//     .header-block__promo-text {
-//         font-size: 16px;
-//     }
-//     .header-block__promo-text-large {
-//         font-size: 24px;
-//     }
-//     .header-block__promo-text{
-//         margin-bottom: 26px;
-//     }
-// }
+@media screen and (max-width: 1200px){
+    .header-block__promo-text::after{
+        width: 38px;
+    }
+}
 
 // --Заголовки блоков--
 
@@ -476,7 +414,7 @@ a{
     }
     .services__item span{
         position: absolute;
-        left: 24px;
+        margin-left: -165px;
         top: 25px;
         font-family: Nunito;
         font-style: normal;
@@ -509,9 +447,11 @@ a{
         color: #fff;
         margin: 55px 0 114px 0;
     }
-    @media screen and (max-width: 1200px){
-        .header-block__promo-text::after{
-            width: 38px;
+    @media screen and (max-width: 400px){
+        .services__item span{
+            margin-left: -141px;
+            top: 54px;
+            font-size: 67px;
         }
     }
 }
