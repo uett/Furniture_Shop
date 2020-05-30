@@ -190,8 +190,8 @@ a{
             line-height: 36px;
         }
         .promo-text__title{
-            line-height: 66px;
-            font-size: 60px;
+            line-height: 66px;           
+            font-size: 55px;
         }
         .promo-text__block-image{
             width: 250px;
@@ -280,7 +280,7 @@ a{
 }
 @media screen and (max-width: 510px){
     .header-block__promo-text-large {
-        font-size: 24px;
+        font-size: 23px;
     }
     .header-block__promo-text {
         font-size: 15px;
@@ -335,7 +335,7 @@ a{
     }
     .about-us__title{
         font-weight: 800;
-        font-size: 36px;
+        font-size: 35px;
         line-height: 49px;
     }
     .about-us__title span{
@@ -634,7 +634,7 @@ a{
         background: none;
         padding: 9px 16px;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 22px;
     }
     .subscription__button{
@@ -651,7 +651,7 @@ a{
     }
     @media screen and (max-width: 576px){
         .subscription__input-email{
-            font-size: 14px;
+            font-size: 12px;
         }
     }
 }
@@ -745,3 +745,72 @@ a{
 }
 
 // Футер
+
+// Стилизация всплывающих попапов с благодарностью
+
+// Верхний попап
+
+.popup-thanks-top-of-the-page{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2cf11f;
+    opacity: 0;
+    transition: 0.5s;
+    white-space: nowrap;
+}
+.popup-thanks-top-of-the-page__text{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 35px;
+    margin: 0;
+}
+.popup-thanks-top-of-the-page--active{
+    opacity: 1;
+}
+
+// Верхний попап
+
+// Нижний попап
+
+.popup-thanks-center-of-the-page{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f7dea6;
+    padding: 31px;
+    max-width: 571px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+}
+.popup-thanks-center-of-the-page--active{
+    display: flex;
+}
+.popup-thanks-center-of-the-page__text{
+    font-size: 18px;
+}
+.popup-thanks-center-of-the-page__link,
+.popup-thanks-center-of-the-page__text a{
+    color: #0056b3;
+}
+.popup-thanks-center-of-the-page__close-button{
+    position: absolute;
+    right: 11px;
+    top: 12px;
+    border: none;
+    background: none;
+    outline: none !important;
+}
+@media screen and (max-width: 576px){
+    .popup-thanks-center-of-the-page{
+        min-width: 293px;
+    }
+}
+
+// Нижний попап
+
+// Стилизация всплывающих попапов с благодарностью
